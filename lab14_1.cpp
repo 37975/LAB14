@@ -12,8 +12,8 @@ void insertionSort(T d[], int N) {
             j--;
         }
         d[j + 1] = key;
-		
-        cout << "Pass " << i << ": ";
+
+        cout << "Pass " << i << ":";
         for (int k = 0; k < N; k++) {
             cout << d[k] << " ";
         }
